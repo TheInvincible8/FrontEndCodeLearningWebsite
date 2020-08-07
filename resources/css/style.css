@@ -94,7 +94,7 @@ h2::after{
 
 }
 .box p{
-   text-align: auto;
+ 
     font-size: 90%;
     line-height: 145%;
 }
@@ -167,4 +167,48 @@ btn-full:visited{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom:2px solid #e67e22;
+}
+
+.section-programs{
+    padding: 0;
+}
+
+.programs-showcase{
+    width:60%;
+    list-style: none;
+    margin-left: 20%;
+
+    
+    
+}
+.programs-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+   
+
+    
+   
+    
+}
+.prog-pic{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+  
+}
+.prog-pic img{
+    
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transform: scale(0.6);
+    transition: transform 0.5s;
+  
+    
+    
+}
+.prog-pic img:hover{
+    transform: scale(1);
 }
