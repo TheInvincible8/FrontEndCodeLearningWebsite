@@ -184,31 +184,30 @@ btn-full:visited{
 .programs-showcase li{
     display: block;
     float: left;
-    width: 25%; 
-   
-
-    
-   
-    
+    width: 25%;   
 }
 .prog-pic{
     width: 100%;
     margin: 0;
     overflow: hidden;
-
-  
 }
 .prog-pic img{
     
     width: 100%;
     height: auto;
  
-  transform: scale(1);
+  transform: scale(2);
     transition: transform 0.4s;
   
     
     
 }
 .prog-pic img:hover{
-    transform: scale(0.8);
+    transform: scale(1);
+}
+.sec2-h{
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 2rem;
+    text-align: center;
 }
